@@ -7,23 +7,27 @@
 
 body {
     font-family: Arial, sans-serif;
-    color: #333;
-    background-color: #123456;
+    color: #313131;
+    background-color: #fca311;
 }
 
 /* Cabeçalho */
 header {
-    background-color: #afd7ff;
+    background-color: #123456;
     color: #fff;
     text-align: center;
     padding: 20px;
 }
+.racismo {
+    color: #000000;
+}
+
 
 /* Seções */
 section {
     margin: 20px;
     padding: 20px;
-    background-color: #fff;
+    background-color: #e3e8ff;
     border-radius: 8px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -60,12 +64,12 @@ h2 {
 
 #agenda li {
     padding: 8px;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #000000;
 }
 
 /* Formulário */
 form label {
-    display: block;
+    display: flex;
     margin-top: 10px;
 }
 
@@ -79,7 +83,7 @@ form input {
 
 form button {
     background-color: #123456;
-    color: #fff;
+    color: #fca311;
     padding: 10px;
     border: none;
     border-radius: 4px;
@@ -92,8 +96,17 @@ form button:hover {
 }
 
 /* Efeitos Interativos */
-button:hover,
+button:hover
 .palestrante img:hover {
     transition: 0.3s;
     transform: scale(1.05);
 }
+/* Rodape/Direitos Autorais */
+footer {
+    background-color: #e3e8ff;
+    padding: 5px;
+}
+footer p{
+    text-align: center;
+}
+
